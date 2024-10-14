@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniProject/Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <h1>MiniProject-1 --> Register</h1>
+        <div class="nav">
+            <button id="home">Home</button>
+            <button id="log">Login</button>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h1>Register Form</h1>
+            <form name="regform" action="login.html" onsubmit="return register()">
+                <input type="text" placeholder="Full Name" name="uname" autofocus>
+                <input type="email" placeholder="Email ID" name="umail">
+                <input type="text" placeholder="Password" name="pass">
+                <input type="password" placeholder="ConfirmPassword" name="Cpass">
+                <button id="subnit_btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="register.js"></script>
+    
+</body>
+</html>
